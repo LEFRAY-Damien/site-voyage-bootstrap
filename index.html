@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+</head>
+<title>
+
+</title>
+
+<meta charset="utf-8">
+
+<!--Polices-->
+<link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
+
+<!--icones -->
+<script src="https://kit.fontawesome.com/86e942c899.js" crossorigin="anonymous"></script>
+
+<!--Bootstrap-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<!--CSS-->
+<link rel="stylesheet" href="style.css">
+
+
+
+
+<body>
+
+    <header>
+
+        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top"> <!-- fixed-top = bare fixé en haut -->
+
+            <div class="container">
+                <a class="navbar-brand" href="/">Voyage</a> <!-- Bouton Voyage -->
+
+                <!-- data-toggle declancheur de data-target
+                     data-target declanche l ID (div) monmenu <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                     aria-controls controle le menu deroulant-->
+
+                <button class="navbar-toggler"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#monmenu"
+                        aria-controls="monmenu"
+                        aria-label="menu pour mobil">
+                        <span class="navbar-toggler-icon"></span> <!-- Icones burger-->
+                </button>
+
+                
+                <div class="collapse navbar-collapse" id="monmenu">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-item nav-link" href="#voyages">Voyages</a>
+                        <a class="nav-item nav-link" href="#pays">Les pays</a>
+                        <a class="nav-item nav-link" href="#photos">Galeries photos</a>
+                        <a class="nav-item nav-link" href="#adore">Ils ont adore</a>
+                        <a class="nav-item nav-link" href="#packs">Nos packs</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row"> <!-- Rangé -->
+                <div class="col-md-12 titless">
+
+                    <h1> Les gros <span>titres</span></h1>
+                    <p> ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+                        massa.<br>
+                        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
+                        felis,
+                        ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.<br> Donec
+                        pede
+                        justo,
+                        fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
+                        venenatis
+                        vitae,
+                        justo. Nullam dictum felis eu pede mollis</p>
+                    <a href="/" class="btn bout1">Liens japon</a>
+                    <a href="/" class="btn bout2">Contacts</a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- Section voyage-->
+    <section id="voyages">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>voyage</h2>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <img src="assets/image/avion.jpeg" alt="voyage" class="avion-img">
+
+                    </div>
+                    <div class="col-md-5">
+                        <div class="voy">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <div class="iconss">
+                                        <i class="fas fa-paper-plane"></i>
+                                    </div>
+                                </div>
+                                <div class="col-md-10">
+                                    <h3>1er voyage</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                        Aenean commodo ligula eget dolor. Aenean massa.
+                                        Cum sociis natoque penatibus
+                                        et magnis dis parturient montes, nascetur ridiculus mus.
+                                        Donec quam felis, ultricies nec,</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="voy">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <div class="iconss">
+                                        <i class="fas fa-plane"></i>
+                                    </div>
+                                </div>
+                                <div class="col-md-10">
+                                    <h3>2 eme voyage</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                        Aenean commodo ligula eget dolor. Aenean massa.
+                                        Cum sociis natoque penatibus
+                                        et magnis dis parturient montes, nascetur ridiculus mus.
+                                        Donec quam felis, ultricies nec,</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="voy">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <div class="iconss">
+                                        <i class="fas fa-fighter-jet"></i> <!-- ICONE -->
+                                    </div>
+
+                                </div>
+                                <div class="col-md-10">
+                                    <h3>3 eme voyage</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                        Aenean commodo ligula eget dolor. Aenean massa.
+                                        Cum sociis natoque penatibus
+                                        et magnis dis parturient montes, nascetur ridiculus mus.
+                                        Donec quam felis, ultricies nec,</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Section pays-->
+    <section class="cl-pays" id="pays">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Les pays</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="les-pays">
+                        <img src="assets/image/jp.png" alt="japon" class="ratio-200">
+                        <h4>Le Japon</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+                            . Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                            natoque penatibus et magnis dis</p>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+                    <div class="les-pays">
+                        <img src="assets/image/usa.png" alt="USA" class="ratio-200">
+                        <h4>USA</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+                            . Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                            natoque penatibus et magnis dis</p>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+                    <div class="les-pays">
+                        <img src="assets/image/aus.svg" alt="l australie" class="ratio-200">
+                        <h4>L australie</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+                            . Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+                            natoque penatibus et magnis dis</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--galeries photos-->
+
+    <section id="photos">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Galeries photos</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="galeriess-img" style="background-image: url(assets/image/tokyo.jpeg);">
+                        <div class="gatitre">
+                            <h4> galeries Japon</h4>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="galeriess-img" style="background-image: url(assets/image/nyc.jpeg);">
+                        <div class="gatitre">.
+                            <h4> galeries USA</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="galeriess-img" style="background-image: url(assets/image/australia.jpeg);">
+                        <div class="gatitre">
+                            <h4>galeries Australie</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="galeriess-img" style="background-image: url(assets/image/senegal.jpeg);">
+                        <div class="gatitre">
+                            <h4>galeries Senegal</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="galeriess-img" style="background-image: url(assets/image/paris.jpeg);">
+                        <div class="gatitre">
+                            <h4>galeries France</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- avis clients-->
+
+    <section class="clientss" id="adore">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Ils ont adoré</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="clients-profil">
+                        <blockquote>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                            Aenean commodo ligula eget dolor. Aenean massa.
+                            <cite><img src="assets/image/emilie.jpg" alt="">Emilie</cite></blockquote>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="clients-profil">
+                        <blockquote>Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales,
+                            augue velit cursus nunc,
+                            <cite><img src="assets/image/blaise.jpg" alt="">Blaise</cite></blockquote>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="clients-profil">
+                        <blockquote>Viverra quis, feugiat a, tellus. Phasellus viverra Sed consequat,
+                            nulla ut metus feugiat a, varius laoreet.
+                            <cite><img src="assets/image/julia.jpg" alt="">Julia</cite></blockquote>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section prix-->
+
+    <section id="packs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Nos packs</h2>
+                </div>
+
+            </div>
+            <div class="row">
+
+                <!-- Pack 1-->
+                <div class="col-md-4">
+                    <div class="pack">
+                        <div class="pack-title">
+                            <h3>Basic</h3>
+                            <h4>Essais</h4>
+                            <p>Week-end offert</p>
+                        </div>
+                        <div class="pack-content">
+                            <ul>
+                                <li><i class="far fa-check-circle"></i>Paris</li>
+                                <li><i class="fas fa-times-circle"></i>Londre</li>
+                                <li><i class="fas fa-times-circle"></i>Berlin</li>
+                                <li><i class="fas fa-times-circle"></i>Rome</li>
+                            </ul>
+                        </div>
+                        <div class="signup">
+                            <a href="/" class="btn btn-pack">Je m'inscrit</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pack 2-->
+                <div class="col-md-4">
+                    <div class="pack pack-prenium">
+                        <div class="pack-title">
+                            <h3>Prenium</h3>
+                            <h4>49€<span>/mois</span></h4>
+                            <p>Week-end offert</p>
+                            <p class="pack-title-prenium">top du top</p>
+                        </div>
+                        <div class="pack-content">
+                            <ul>
+                                <li><i class="far fa-check-circle"></i>Paris</li>
+                                <li><i class="far fa-check-circle"></i>Londre</li>
+                                <li><i class="fas fa-times-circle"></i>Berlin</li>
+                                <li><i class="fas fa-times-circle"></i>Rome</li>
+                            </ul>
+                        </div>
+                        <div class="signup">
+                            <a href="/" class="btn btn-pack">Je m'inscrit</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pack 3-->
+                <div class="col-md-4">
+                    <div class="pack">
+                        <div class="pack-title">
+                            <h3>Gold</h3>
+                            <h4>99€<span>/mois</span></h4>
+                            <p>Week-end offert</p>
+                        </div>
+                        <div class="pack-content">
+                            <ul>
+                                <li><i class="far fa-check-circle"></i>Paris</li>
+                                <li><i class="far fa-check-circle"></i>Londre</li>
+                                <li><i class="far fa-check-circle"></i>Berlin</li>
+                                <li><i class="far fa-check-circle"></i>Rome</li>
+                            </ul>
+                        </div>
+                        <div class="signup">
+                            <a href="/" class="btn btn-pack">Je m'inscrit</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+<!-- Contacts -->
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">  
+                        <div class="form">
+                            <h2>Contactez nous</h2>
+                            <p>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth.
+                             Por scientie, musica, sport etc, litot Europa usa li sam vocabular.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="phone">
+                                <p><i class="fas fa-phone"></i> 02 43 00 00 00</p>
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-8">
+                            <div class="adress">
+                                <p><i class="fas fa-map-marker-alt"></i> 16 place grande rue 72210 la suze sur sarthe</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form> <!-- Balise de formulaire -->
+
+                        <!-- nom et mail -->
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="contact-form">
+                                <label>Nom: </label> <!-- titre du formulaire -->
+                                <input type="text" id="name"> <!-- case de formulaires-->
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="contact-form">
+                                <label>Mail: </label>
+                                <input type="email" id="mail" placeholder="Mail@">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- menu deroulants-->
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="contact-form">
+                                <label>Selectionnez les services</label>
+                                <select> <!-- menu deroulant -->
+                                    <option>Service clients</option>
+                                    <option>Service RH</option>
+                                    <option>SAV</option>
+                                </select>
+                            </div>
+                        <!-- message -->        
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="contact-form">
+                                <label>Votre message</label>
+                                <textarea id="message" rows="4" class="contact-message"></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- envoyer -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="contact-form">
+                                <button class="btn btn-contact">Envoyer</button>
+                                </div>
+                            </div>
+                        </div>
+
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2675.410580390633!2d0.02394681572696441!3d47.
+                    88973797636886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+                    1!3m3!1m2!1s0x47e29d0b54cc8ee7%3A0xc088f2d950c5b3a6!2sMairie%20de%20la%20Suze%20sur%20Sarthe!5e0!3m2!1sfr!2sfr!4v1593092307976!5m2!1sfr!2sfr" width="600" 
+                    height="450" frameborder="0" style="border:0;"allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer> <!-- Bas de page -->
+        <div class="copyright">
+            <p>Site voyage 2020. <a href="/">mention legal</a></p>
+
+
+        </div>
+
+
+    </footer>
+
+    <!-- SCRIPTS -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body>
+
+
+
+
+
+
+
+</html>

@@ -1,0 +1,347 @@
+/* general */
+
+header{
+
+    background-image: /* effet degradé */ linear-gradient( to right, rgba(255, 43, 43, 0.5), rgb(5, 139, 139)),
+    url(assets/image/11.jpeg);
+    height: 100vh;
+    background-position: center;
+    /* couvrir le fond */ background-size: cover;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Mouse Memoirs', 'arial', sans-serif;
+    text-transform: uppercase; /* MAJUSCULE */
+    
+}
+h1{
+   color: rgb(251, 255, 1);
+   letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+h2{
+    color: crimson;
+    font-size: 400%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+h2::after{
+    display: block;
+    height: 2px;
+    background-color:rgb(5, 139, 139);
+    width: 100px;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+
+h3{
+    font-size: 250%;
+}
+
+p{
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+section {
+    padding: 30px 0 60px 0;
+}
+
+
+
+/* header */
+
+.titless{
+    position: absolute;
+    top: 30%;
+    width: auto;
+
+}
+
+.titless h1{
+    font-size: 400%;
+}
+
+.titless h1 span{
+    font-weight: 700;
+}
+
+.titless {
+    color: rgb(255, 251, 251);
+}
+
+.btn{
+
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 10px; /* arrondi du cadre */
+    transition: background-color 1s, color 1s, border 1s;
+    margin-bottom: 20px;
+}
+
+.bout1{
+    background-color: rgb(255, 255, 1);
+    color: rgb(255, 43, 43);
+    margin-right: 15px;
+
+}
+
+.bout2{
+    border: 1px solid rgb(255, 255, 1);
+    color: rgb(255, 255, 1);
+}
+
+.bout1:hover{
+    background-color: rgb(255, 43, 43);
+    color: rgb(255, 255, 1);
+}
+
+.bout2:hover{
+    background-color: rgb(255, 43, 43);
+    color: rgb(255, 255, 1);
+    border: 1px solid rgb(255, 43, 43);
+}
+
+.avion-img{
+    max-width: 100%;
+    height: 100%;
+}
+
+.iconss{
+    font-size: 34px;
+    color: rgb(255, 43, 43);
+}
+
+.voy{
+    margin: 20px 0;
+}
+
+.voy:hover .iconss{
+    color: rgb(5, 139, 139);
+    transform: translateX(20px);
+    transition: all 1s;
+}
+
+.cl-pays{
+    background-color: rgb(255, 159, 159);
+}
+
+.les-pays{
+    background-color: khaki;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(5, 139, 139, 0.5);
+    margin-bottom: 20px;
+}
+
+.les-pays img{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.les-pays h4{
+    text-align: center;
+}
+
+.ratio-200{
+    width: 200px;
+    height: 200px;
+}
+
+/* galeries img */
+
+.galeriess-img{
+    display: block;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    height: 300px;
+    box-shadow: 0 0 20px rgb(5, 139, 139, 0.5);
+    margin-bottom: 30px;
+}
+
+.gatitre{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+
+.gatitre h4{
+    color: rgb(255, 255, 1);
+}
+
+/* clients */
+
+.clientss{
+    background-image: linear-gradient( to right, rgba(255, 43, 43, 0.5), rgb(5, 139, 139)), url(assets/image/avis.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.clientss h2:after{
+    background-color:rgb(255, 255, 1) ;
+
+}
+
+blockquote{
+    color: rgb(255, 255, 1);
+    padding: 5px;
+    font-style: italic;
+    line-height: 130%;
+}
+
+blockquote:before{
+    content: "\201C";
+    font-size: 600%;
+    font-family: 'Sanchez', serif;
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    color: rgba(255, 255, 1, 0.4);
+}
+
+cite{
+    font-size: 90%;
+    display: block;
+    margin-top: 20px;
+}
+
+cite img{
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* pack */
+
+.pack{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.pack h3{
+    color: rgb(5,139,139);
+    font-weight: 400;
+}
+
+.pack h4{
+    font-size: 200%;
+    font-weight: 100;
+}
+
+.pack-title{
+    padding: 10px 10px 0 10px;
+    border-bottom: 2px solid #ccd4d8;
+}
+
+.pack span{
+    font-weight: 100; /* epaisseur */
+    font-size: 60%; /* taille */
+    position: relative; /* position par rapport a la balise du dessus */
+    top: -4px;
+    left: 4px;
+
+}
+
+.pack-content ul{
+    list-style: none;
+    padding: 20px;
+    font-weight: 300;
+    line-height: 35px;
+}
+
+.pack-content ul li i{
+    font-size: 110%;
+    margin-right: 10px;
+}
+
+.signup{
+    text-align: center;
+}
+
+.signup:hover .btn-pack{
+    background-color: rgb(255, 43, 43);
+    color: rgb(255, 255, 1);
+}
+
+.btn-pack{
+    background-color: rgb(255, 255, 1);
+    color: rgb(255, 43, 43);
+    margin-bottom: 20px;
+}
+.pack-prenium{
+    background-color: rgb(255, 43, 43);
+    color: rgb(255, 255, 1);
+
+}
+
+.pack-title-prenium{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    background-color: rgb(255, 255, 1);
+    color: rgb(255, 43, 43);
+    border-radius: 10px;
+    padding: 4px;
+    font-size: 110%;
+
+}
+
+/* Contacts */ 
+
+.contact-form{
+    margin-bottom: 30px;
+}
+
+.contact-message{
+    width: 100%;
+}
+
+.btn-contact{
+    background-color: rgb(255, 255, 1);
+    color: rgb(255, 43, 43);
+}
+
+.map{
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+
+
+/* fenetre google map */
+.map iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Footer */
+
+footer{
+    background-color: black;
+    color: white;
+    height: 60px;
+    padding: 20px 20px;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.copyright a{
+    color: white;
+}
